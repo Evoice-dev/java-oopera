@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class Opera extends MusicalShow{
+    private int choirSize;
+
+    public Opera(String title, Director director, double duration, Person musicAuthor, String librettoText, int choirSize) {
+        super(title, director, duration, musicAuthor, librettoText);
+        this.choirSize = choirSize;
+    }
+
+    public int getChoirSize() {
+        return choirSize;
+    }
+}
